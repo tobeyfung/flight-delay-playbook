@@ -3,7 +3,7 @@
 import pandas as pd, numpy as np, glob, json
 D='data/full_2025/'
 cols=['MONTH','OP_UNIQUE_CARRIER','ORIGIN','DEST','CRS_DEP_TIME','ARR_DELAY','CANCELLED','DIVERTED']
-df=pd.concat([pd.read_csv(f,usecols=cols,dtype={'OP_UNIQUE_CARRIER':'category','ORIGIN':'category','DEST':'category'}) for f in sorted(glob.glob(D+'*.csv.gz'))],ignore_index=True)
+df=pd.concat([pd.read_csv(f,usecols=cols,dtype={'OP_UNIQUE_CARRIER':'category','ORIGIN':'category','DEST':'category'}) for f in sorted(glob.glob(D+'*.csv'))],ignore_index=True)
 c=df.CANCELLED==1; d=df.DIVERTED==1; fl=~c&~d&df.ARR_DELAY.notna()
 df['y']=(c|d|(fl&(df.ARR_DELAY>=15))).astype('float32')
 keep=df.OP_UNIQUE_CARRIER.value_counts(); keep=keep[keep>=50000].index
