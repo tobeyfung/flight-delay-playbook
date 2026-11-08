@@ -1,0 +1,48 @@
+{
+  "population_records": 6398056,
+  "student_records": 200000,
+  "sampling": "Uniform random reservoir sample",
+  "random_seed": 20261103,
+  "sample_weight": 31.99028,
+  "population_carriers": {
+    "AA": 973653,
+    "AS": 245588,
+    "B6": 231413,
+    "DL": 1026332,
+    "YX": 346036,
+    "OH": 248735,
+    "OO": 839821,
+    "UA": 795271,
+    "WN": 1391885,
+    "MQ": 299322
+  },
+  "student_carriers": {
+    "UA": 24950,
+    "AA": 30271,
+    "DL": 32059,
+    "MQ": 9384,
+    "OH": 7890,
+    "WN": 43668,
+    "OO": 26102,
+    "AS": 7717,
+    "B6": 7333,
+    "YX": 10626
+  },
+  "student_months": {
+    "2": 14402,
+    "8": 17168,
+    "11": 16469,
+    "10": 17714,
+    "6": 17360,
+    "3": 17059,
+    "1": 15349,
+    "9": 16071,
+    "12": 16698,
+    "5": 17235,
+    "7": 17819,
+    "4": 16656
+  },
+  "student_cancelled": 2907,
+  "student_diverted": 570,
+  "student_airports": 327
+}

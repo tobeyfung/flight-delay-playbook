@@ -1,0 +1,38 @@
+column,description
+YEAR,Year
+QUARTER,Quarter
+MONTH,Month
+DAY_OF_MONTH,Day Of Month
+DAY_OF_WEEK,Day Of Week
+FL_DATE,Fl Date
+OP_UNIQUE_CARRIER,Op Unique Carrier
+OP_CARRIER,Op Carrier
+OP_CARRIER_FL_NUM,Op Carrier Fl Num
+TAIL_NUM,Tail Num
+ORIGIN,Origin
+ORIGIN_CITY_NAME,Origin City Name
+ORIGIN_STATE_ABR,Origin State Abr
+DEST,Dest
+DEST_CITY_NAME,Dest City Name
+DEST_STATE_ABR,Dest State Abr
+CRS_DEP_TIME,Crs Dep Time
+DEP_TIME,Dep Time
+DEP_DELAY,Dep Delay
+DEP_DELAY_NEW,Dep Delay New
+CRS_ARR_TIME,Crs Arr Time
+ARR_TIME,Arr Time
+ARR_DELAY,Arr Delay
+ARR_DELAY_NEW,Arr Delay New
+CANCELLED,Cancelled
+CANCELLATION_CODE,Cancellation Code
+DIVERTED,Diverted
+CRS_ELAPSED_TIME,Crs Elapsed Time
+ACTUAL_ELAPSED_TIME,Actual Elapsed Time
+AIR_TIME,Air Time
+DISTANCE,Distance
+CARRIER_DELAY,Carrier Delay
+WEATHER_DELAY,Weather Delay
+NAS_DELAY,Nas Delay
+SECURITY_DELAY,Security Delay
+LATE_AIRCRAFT_DELAY,Late Aircraft Delay
+sample_weight,Population records divided by sample records
