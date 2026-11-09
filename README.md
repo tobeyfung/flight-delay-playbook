@@ -1,6 +1,6 @@
 # Fly Early, Miss Fewer Meetings: A Flight-Delay Playbook
 
-*Team A10 · Boston University MSBA · Questrom Chart Champ Datathon · all 6.4 million US flights in 2025*
+*Team 10 · Boston University MSBA · Questrom Chart Champ Datathon · all 6.4 million US flights in 2025*
 
 [Background](#background--overview) · [Summary](#executive-summary) · [Insights](#insights-deep-dive) · [Recommendations](#recommendations) · [Caveats](#caveats--assumptions) · [Repository](#repository)
 
@@ -189,4 +189,4 @@ Run from the repo root so the `data/` paths work. The full data is 6.4 million r
 
 ## Team
 
-Team A10 · Boston University MSBA · Questrom Chart Champ Datathon, Fall 2026
+Team 10 · Boston University MSBA · Questrom Chart Champ Datathon, Fall 2026
